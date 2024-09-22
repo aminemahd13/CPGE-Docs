@@ -5542,7 +5542,7 @@ const nav_style_colors = {
   "purple": {"background-color": "#E040FB", "color": "#FFF"},
   "deep-purple": {"background-color": "#7C4DFF", "color": "#FFF"},
   "indigo": {"background-color": "#536DFE", "color": "#FFF"},
-  "blue": {"background-color": "#448AFF", "color": "#FFF"},
+  "blue": {"background-color": "#64ffda", "color": "#FFF"},
   "light-blue": {"background-color": "#40C4FF", "color": "#FFF"},
   "cyan": {"background-color": "#18FFFF", "color": "#000"},
   "teal": {"background-color": "#64FFDA", "color": "#000"},

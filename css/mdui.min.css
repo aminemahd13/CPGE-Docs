@@ -857,7 +857,7 @@
 }
 .mdui-theme-accent-blue .mdui-color-theme-accent {
   color: #fff !important;
-  background-color: #448aff !important;
+  background-color: #64ffda !important;
 }
 .mdui-theme-accent-blue .mdui-color-theme-a100 {
   color: rgba(0, 0, 0, 0.87) !important;
@@ -865,7 +865,7 @@
 }
 .mdui-theme-accent-blue .mdui-color-theme-a200 {
   color: #fff !important;
-  background-color: #448aff !important;
+  background-color: #64ffda !important;
 }
 .mdui-theme-accent-blue .mdui-color-theme-a400 {
   color: #fff !important;
@@ -2013,7 +2013,7 @@
 }
 .mdui-color-blue-accent {
   color: #fff !important;
-  background-color: #448aff !important;
+  background-color: #64ffda !important;
 }
 .mdui-color-blue-a100 {
   color: rgba(0, 0, 0, 0.87) !important;
@@ -2021,7 +2021,7 @@
 }
 .mdui-color-blue-a200 {
   color: #fff !important;
-  background-color: #448aff !important;
+  background-color: #64ffda !important;
 }
 .mdui-color-blue-a400 {
   color: #fff !important;
@@ -2965,13 +2965,13 @@
   color: #ffab00 !important;
 }
 .mdui-theme-accent-blue .mdui-text-color-theme-accent {
-  color: #448aff !important;
+  color: #64ffda !important;
 }
 .mdui-theme-accent-blue .mdui-text-color-theme-a100 {
   color: #82b1ff !important;
 }
 .mdui-theme-accent-blue .mdui-text-color-theme-a200 {
-  color: #448aff !important;
+  color: #64ffda !important;
 }
 .mdui-theme-accent-blue .mdui-text-color-theme-a400 {
   color: #2979ff !important;
@@ -3832,13 +3832,13 @@
   color: #ffab00 !important;
 }
 .mdui-text-color-blue-accent {
-  color: #448aff !important;
+  color: #64ffda !important;
 }
 .mdui-text-color-blue-a100 {
   color: #82b1ff !important;
 }
 .mdui-text-color-blue-a200 {
-  color: #448aff !important;
+  color: #64ffda !important;
 }
 .mdui-text-color-blue-a400 {
   color: #2979ff !important;
@@ -5235,10 +5235,10 @@ body.mdui-locked {
   background-color: #ffd740;
 }
 .mdui-theme-accent-blue .mdui-typo a {
-  color: #448aff;
+  color: #64ffda;
 }
 .mdui-theme-accent-blue .mdui-typo a:before {
-  background-color: #448aff;
+  background-color: #64ffda;
 }
 .mdui-theme-accent-cyan .mdui-typo a {
   color: #18ffff;
@@ -6047,9 +6047,9 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-blue.mdui-theme-layout-dark
   .mdui-textfield-focus
   .mdui-textfield-input {
-  border-bottom-color: #448aff;
-  -webkit-box-shadow: 0 1px 0 0 #448aff;
-  box-shadow: 0 1px 0 0 #448aff;
+  border-bottom-color: #64ffda;
+  -webkit-box-shadow: 0 1px 0 0 #64ffda;
+  box-shadow: 0 1px 0 0 #64ffda;
 }
 .mdui-theme-accent-blue.mdui-theme-layout-dark .mdui-textfield-focus .mdui-icon,
 .mdui-theme-accent-blue.mdui-theme-layout-dark
@@ -6059,7 +6059,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-blue.mdui-theme-layout-dark
   .mdui-textfield-focus
   .mdui-textfield-label {
-  color: #448aff;
+  color: #64ffda;
 }
 .mdui-theme-accent-cyan .mdui-textfield-focus .mdui-textfield-input {
   border-bottom-color: #00b8d4;
@@ -6669,8 +6669,8 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   .mdui-checkbox
   input[type="checkbox"]:indeterminate
   + .mdui-checkbox-icon:after {
-  background-color: #448aff;
-  border-color: #448aff;
+  background-color: #64ffda;
+  border-color: #64ffda;
 }
 .mdui-theme-accent-blue
   .mdui-checkbox
@@ -7255,13 +7255,13 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   .mdui-radio
   input[type="radio"]:checked
   + .mdui-radio-icon {
-  border-color: #448aff;
+  border-color: #64ffda;
 }
 .mdui-theme-accent-blue
   .mdui-radio
   input[type="radio"]:checked
   + .mdui-radio-icon:before {
-  background-color: #448aff;
+  background-color: #64ffda;
 }
 .mdui-theme-accent-blue
   .mdui-radio
@@ -7747,7 +7747,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   .mdui-switch
   input[type="checkbox"]:checked
   + .mdui-switch-icon:before {
-  background-color: #448aff;
+  background-color: #64ffda;
 }
 .mdui-theme-accent-blue
   .mdui-switch
@@ -8440,11 +8440,11 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   border: 2px solid #ffd740;
 }
 .mdui-theme-accent-blue .mdui-slider-fill:before {
-  background-color: #448aff;
+  background-color: #64ffda;
 }
 .mdui-theme-accent-blue .mdui-slider-thumb {
-  background-color: #448aff;
-  border: 2px solid #448aff;
+  background-color: #64ffda;
+  border: 2px solid #64ffda;
 }
 .mdui-theme-accent-cyan .mdui-slider-fill:before {
   background-color: #18ffff;

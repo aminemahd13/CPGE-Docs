@@ -61,7 +61,7 @@ body {
   background: linear-gradient(145.44deg, #F2F4FA 0%, #FAFBFC 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: #1E252F;
+  color: #0a192f;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 0.875rem;
@@ -713,7 +713,7 @@ button:focus {
   height: 6rem;
   margin-top: -3rem;
   margin-left: -3rem;
-  background-color: #1E252F;
+  background-color: #0a192f;
 }
 
 .circle-pulse__2 {

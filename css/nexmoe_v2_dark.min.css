@@ -3,18 +3,14 @@
     color-scheme: dark;
 }
 
-/*隐藏滚动条*/
-/* ::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
-} */
+
 
 /*导航*/
 .nexmoe-nav {
     height: 56px;
     width: 100%;
-    background-color: #fff;
-    box-shadow: 0 2px 6px rgba(0,0,0,.04);
+    background-color: #ccd6f6;
+    box-shadow: 0 2px 6px #112240;
 }
 .navSize{
     position: relative;
@@ -22,7 +18,7 @@
     max-width: 1100px;
     margin: 0 auto;
 }
-/* 头像 */
+
 .avatar{
     position: absolute;
     top: 4px;
@@ -33,7 +29,7 @@
     border-radius: 50%;
     transition: 1.2s;
 }
-/* 头像动画 */
+
 .avatar:hover{
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
@@ -64,12 +60,12 @@
 }
 .menu_li a{
     font-size: 16px;
-    color: #7e7e7e;
+    color: #8892b0;
     transition: color 0.2s ease-out,border 0.2s ease-out,opacity 0.2s ease-out;
     text-decoration: none;
 }
 .menu_li a:hover{
-    color: #1e89f2;
+    color: #64ffda;
 }
 /* 定义动画 */
 @-webkit-keyframes fadeIn {
@@ -135,7 +131,7 @@ opacity: 1; /*结尾状态 透明度为1*/
 
 .mdui-toolbar > a:last-child {
 	opacity: 1;
-    background-color: #1e89f2;
+    background-color: #64ffda;
     color: #ffff;
 }
 
@@ -266,6 +262,6 @@ astyle {
 }
 
 .nav-style > a:hover {
-    background-color: #1e89f2;
+    background-color: #64ffda;
     color: #ffff;
 }

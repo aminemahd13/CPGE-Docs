@@ -72,7 +72,7 @@
 }
 
 .menu_li a:hover{
-    color: #1e89f2;
+    color: #64ffda;
 }
 
 /* 定义动画 */
@@ -142,7 +142,7 @@
 
 .mdui-toolbar > a:last-child {
 	opacity: 1;
-    background-color: #1e89f2;
+    background-color: #64ffda;
     color: #ffff;
 }
 

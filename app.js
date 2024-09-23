@@ -5496,7 +5496,7 @@ if (UI.dark_mode) {
 }
 if (UI.dark_mode) {
   document.write(
-    '<link rel="stylesheet" href="//rawcdn.githack.com/aminemahd13/CPGE-Docs/19f6542c8ec16dc026da823bcfc151f372015c08/css/nexmoe_v2_dark.min.css">'
+    '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/aminemahd13/CPGE-Docs/css/nexmoe_v2_dark.min.css">'
   );
 } else {
   document.write(

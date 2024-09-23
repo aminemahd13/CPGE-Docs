@@ -6099,51 +6099,77 @@ function onSearchResultItemClick(a_ele) {
   var dialog = mdui.dialog({
     title: "",
     content:
-      '<div class="mdui-text-center mdui-typo-title mdui-m-b-1">Getting Target Path...</div><div class="mdui-spinner mdui-spinner-colorful mdui-center"></div>',
-    history: !1,
-    modal: !0,
-    closeOnEsc: !0,
+      '<div class="mdui-text-center mdui-typo-title mdui-m-b-1" style="color: #ccd6f6;">Getting Target Path...</div><div class="mdui-spinner mdui-spinner-colorful mdui-center"></div>',
+    history: false,
+    modal: true,
+    closeOnEsc: true,
+    cssClass: 'custom-dialog'
   });
   mdui.updateSpinners();
+
   $.post(`/${cur}:id2path`, { id: a_ele.id }, function (data) {
     if (data) {
       dialog.close();
       var href = `/${cur}:${data}${can_preview ? "?a=view" : ""}`;
       dialog = mdui.dialog({
-        title: '<i class="mdui-icon material-icons"></i>Target Path',
-        content: `<a href="${href}">${data}</a>`,
-        history: !1,
-        modal: !0,
-        closeOnEsc: !0,
+        title: '<i class="mdui-icon material-icons" style="color: #ccd6f6;"></i>Target Path',
+        content: `<a href="${href}" style="color: #64ffda;">${data}</a>`,
+        history: false,
+        modal: true,
+        closeOnEsc: true,
+        cssClass: 'custom-dialog',
         buttons: [
           {
-            text: "Open in same tab",
+            text: '<span style="color: #64ffda;">Open in same tab</span>',
             onClick: function () {
               window.location.href = href;
             },
           },
           {
-            text: "Open in new tab",
+            text: '<span style="color: #64ffda;">Open in new tab</span>',
             onClick: function () {
               window.open(href);
             },
           },
-          { text: "Cancel" },
+          { text: '<span style="color: #64ffda;">Cancel</span>' },
         ],
       });
       return;
     }
     dialog.close();
     dialog = mdui.dialog({
-      title: '<i class="mdui-icon material-icons">&#xe811;</i>Failed to get the target path',
+      title: '<i class="mdui-icon material-icons" style="color: #ccd6f6;">&#xe811;</i>Failed to get the target path',
       content: "It may be because this item does not exist in the Folder! It may also be because the file [Shared with me] has not been added to Personal Drive!",
-      history: !1,
-      modal: !0,
-      closeOnEsc: !0,
-      buttons: [{ text: "WTF ???" }],
+      history: false,
+      modal: true,
+      closeOnEsc: true,
+      cssClass: 'custom-dialog',
+      buttons: [{ text: '<span style="color: #64ffda;">WTF ???</span>' }],
     });
   });
 }
+
+// Add CSS styles for the dialog
+$('<style>')
+  .prop('type', 'text/css')
+  .html(`
+    .custom-dialog {
+      background-color: #0a192f; /* Main background color */
+      color: #ccd6f6; /* Text and titles color */
+    }
+    .custom-dialog .mdui-dialog-title, 
+    .custom-dialog .mdui-dialog-content {
+      color: #ccd6f6; /* Title and content text color */
+    }
+    .custom-dialog a {
+      color: #64ffda; /* Link color */
+    }
+    .custom-dialog .mdui-button {
+      color: #64ffda; /* Button text color */
+    }
+  `)
+  .appendTo('head');
+
 function get_file(path, file, callback) {
   var key = "file_path_" + path + file.modifiedTime;
   var data = localStorage.getItem(key);

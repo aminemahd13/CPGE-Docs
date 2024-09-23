@@ -5584,7 +5584,7 @@ function init() {
     html += `
     <div style="margin-bottom: 20px" class="mdui-center mdui-text-center">
       <a href="https://aminemahdane.com" target="_blank">
-        <img src="https://rawcdn.githack.com/aminemahd13/CPGE-Docs/0e7093c56a6e49f47f91325b21785b1bf5d8bfaf/images/logo100.png" alt="Amine Mahdane">
+        <img src="https://rawcdn.githack.com/aminemahd13/CPGE-Docs/c393d8c54088cd1a2205fd0de7f843965669b212/images/logobg100.png" alt="Amine Mahdane">
       </a>
     </div>
     </div>

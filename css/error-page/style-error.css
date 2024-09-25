@@ -82,7 +82,7 @@ body {
 }
 
 .nav-style > a:hover {
-    background-color: #64ffda !important;
+    background-color: #133040 !important;
     color: #FFF !important
 }
 
@@ -122,7 +122,7 @@ body {
 }
 
 .nav-style-hover-blue > a:hover {
-    background-color: #64ffda !important;
+    background-color: #133040 !important;
     color: #FFF !important;
 }
 
@@ -137,7 +137,7 @@ body {
 }
 
 .nav-style-hover-teal > a:hover {
-    background-color: #64FFDA !important;
+    background-color: #133040 !important;
     color: #000 !important;
 }
 

@@ -65,7 +65,7 @@
     text-decoration: none;
 }
 .menu_li a:hover{
-    color: #133040;
+    color: #133e40;
 }
 /* 定义动画 */
 @-webkit-keyframes fadeIn {
@@ -131,7 +131,7 @@ opacity: 1; /*结尾状态 透明度为1*/
 
 .mdui-toolbar > a:last-child {
 	opacity: 1;
-    background-color: #133040;
+    background-color: #133e40;
     color: #ffff;
 }
 
@@ -262,6 +262,6 @@ astyle {
 }
 
 .nav-style > a:hover {
-    background-color: #133040;
+    background-color: #133e40;
     color: #ffff;
 }

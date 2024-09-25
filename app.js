@@ -5542,10 +5542,10 @@ const nav_style_colors = {
   "purple": {"background-color": "#E040FB", "color": "#FFF"},
   "deep-purple": {"background-color": "#7C4DFF", "color": "#FFF"},
   "indigo": {"background-color": "#536DFE", "color": "#FFF"},
-  "blue": {"background-color": "#133040", "color": "#FFF"},
+  "blue": {"background-color": "#133e40", "color": "#FFF"},
   "light-blue": {"background-color": "#40C4FF", "color": "#FFF"},
   "cyan": {"background-color": "#18FFFF", "color": "#000"},
-  "teal": {"background-color": "#133040", "color": "#000"},
+  "teal": {"background-color": "#133e40", "color": "#000"},
   "green": {"background-color": "#69F0AE", "color": "#FFF"},
   "light-green": {"background-color": "#B2FF59", "color": "#000"},
   "lime": {"background-color": "#EEFF41", "color": "#000"},
@@ -6113,25 +6113,25 @@ function onSearchResultItemClick(a_ele) {
       var href = `/${cur}:${data}${can_preview ? "?a=view" : ""}`;
       dialog = mdui.dialog({
         title: '<i class="mdui-icon material-icons" style="color: #ccd6f6;"></i>Target Path',
-        content: `<a href="${href}" style="color: #133040;">${data}</a>`,
+        content: `<a href="${href}" style="color: #133e40;">${data}</a>`,
         history: false,
         modal: true,
         closeOnEsc: true,
         cssClass: 'custom-dialog',
         buttons: [
           {
-            text: '<span style="color: #133040;">Open in same tab</span>',
+            text: '<span style="color: #133e40;">Open in same tab</span>',
             onClick: function () {
               window.location.href = href;
             },
           },
           {
-            text: '<span style="color: #133040;">Open in new tab</span>',
+            text: '<span style="color: #133e40;">Open in new tab</span>',
             onClick: function () {
               window.open(href);
             },
           },
-          { text: '<span style="color: #133040;">Cancel</span>' },
+          { text: '<span style="color: #133e40;">Cancel</span>' },
         ],
       });
       return;
@@ -6144,7 +6144,7 @@ function onSearchResultItemClick(a_ele) {
       modal: true,
       closeOnEsc: true,
       cssClass: 'custom-dialog',
-      buttons: [{ text: '<span style="color: #133040;">WTF ???</span>' }],
+      buttons: [{ text: '<span style="color: #133e40;">WTF ???</span>' }],
     });
   });
 }
@@ -6162,10 +6162,10 @@ $('<style>')
       color: #ccd6f6; /* Title and content text color */
     }
     .custom-dialog a {
-      color: #133040; /* Link color */
+      color: #133e40; /* Link color */
     }
     .custom-dialog .mdui-button {
-      color: #133040; /* Button text color */
+      color: #133e40; /* Button text color */
     }
   `)
   .appendTo('head');

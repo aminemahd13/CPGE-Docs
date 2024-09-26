@@ -5710,7 +5710,7 @@ function nav(path) {
             </form>
             <button class="mdui-textfield-close mdui-btn mdui-btn-icon" onclick="$('.mdui-select').removeClass('hidedropdown');"><i class="mdui-icon material-icons">close</i></button>
         </div>
-        <button class="mdui-textfield-icon mdui-btn mdui-btn-icon dummyclass2" onclick="window.open('${UI.helpURL}')">
+        <button class="mdui-textfield-icon mdui-btn mdui-btn-icon dummyclass2" onclick="window.location.href='${UI.helpURL}'">
           <i class="mdui-icon material-icons">help_outline</i>
         </button>`;
   html += search_bar;
